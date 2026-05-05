@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chukwuebuka Nnabugwu | Analytics Engineer, Data Warehouse Architect</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">Chukwuebuka Nnabugwu</a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg">
+            <canvas id="particleCanvas"></canvas>
+            <div class="code-rain" id="codeRain"></div>
+        </div>
+        <div class="hero-content">
+            <p class="hero-greeting">Hello, I'm</p>
+            <h1 class="hero-name">Chukwuebuka Nnabugwu</h1>
+            <div class="hero-divider"></div>
+            <h2 class="hero-title">Analytics Engineer | Data Warehouse Architect</h2>
+            <p class="hero-subtitle">Snowflake · dbt · Python · Power BI · Data Vault Modelling</p>
+            <div class="hero-languages">
+                <span class="lang-tag">Financial Services</span>
+                <span class="lang-tag">Data Warehousing</span>
+                <span class="lang-tag">Data Governance</span>
+            </div>
+            <div class="hero-cta">
+                <a href="#projects" class="btn btn-primary">View Projects</a>
+                <a href="#contact" class="btn btn-outline">Get In Touch</a>
+            </div>
+        </div>
+        <a href="#about" class="scroll-indicator" aria-label="Scroll down">
+            <i class="fas fa-chevron-down"></i>
+        </a>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="about-image">
+                    <div class="about-image-wrapper">
+                        <!-- Add your photo to assets/profile.jpg -->
+                        <img src="assets/profile.png" alt="Chukwuebuka Nnabugwu" />
+                        <div class="about-image-border"></div>
+                    </div>
+                </div>
+                <div class="about-text">
+                    <p class="about-lead">I'm an Analytics Engineer with five years of experience building data warehouses and pipelines that financial services teams depend on.</p>
+                    <p>Most of my career has been in fintech and financial services, where data quality matters and a broken pipeline has real consequences. At JadaSquad I design Snowflake systems that process over 10 million transactions a month. I have brought compute costs down by 28%, keeping pipeline uptime at 99.8%, and cut reporting errors by 45% through automated dbt quality checks.</p>
+                    <p>Before that I spent four years as a Senior Data Analyst at RemotePass and eTranzact International, building the metric layers, dashboards, and reporting infrastructure used at the executive level. I got my start in data at Lagos Business School supporting econometrics research, and I am currently finishing an MSc in Data Science at the University of Salford.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number">5+</span>
+                            <span class="stat-label">Years Experience</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">10M+</span>
+                            <span class="stat-label">Transactions/Month</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">99.8%</span>
+                            <span class="stat-label">Pipeline Uptime</span>
+                        </div>
+                    </div>
+                    <!-- Add your CV to assets/cv.pdf -->
+                    <a href="assets/cv.pdf" download class="btn btn-primary resume-btn">
+                        <i class="fas fa-download"></i> Download CV
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section skills" id="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Tools</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-database"></i></div>
+                    <h3>Data Platforms</h3>
+                    <div class="skill-tags">
+                        <span>Snowflake</span>
+                        <span>Azure</span>
+                        <span>PostgreSQL</span>
+                        <span>MySQL</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-code"></i></div>
+                    <h3>Pipeline Engineering</h3>
+                    <div class="skill-tags">
+                        <span>dbt</span>
+                        <span>SQL</span>
+                        <span>Python</span>
+                        <span>PySpark</span>
+                        <span>Snowpark</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-sitemap"></i></div>
+                    <h3>Data Modelling</h3>
+                    <div class="skill-tags">
+                        <span>Star Schema</span>
+                        <span>Data Vault</span>
+                        <span>Dimensional</span>
+                        <span>ELT/ETL</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-chart-bar"></i></div>
+                    <h3>BI & Visualisation</h3>
+                    <div class="skill-tags">
+                        <span>Power BI</span>
+                        <span>Tableau</span>
+                        <span>Looker Studio</span>
+                        <span>LookML</span>
+                        <span>DAX</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-chart-line"></i></div>
+                    <h3>Analytics & Monitoring</h3>
+                    <div class="skill-tags">
+                        <span>Google Analytics</span>
+                        <span>Fullstory</span>
+                        <span>Power Automate</span>
+                        <span>SSRS</span>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon"><i class="fas fa-tools"></i></div>
+                    <h3>Delivery & Workflow</h3>
+                    <div class="skill-tags">
+                        <span>Git</span>
+                        <span>Azure DevOps</span>
+                        <span>Jira</span>
+                        <span>Jupyter</span>
+                        <span>Google Colab</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section projects" id="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <p class="section-subtitle">A selection of data engineering and analytics projects from my GitHub. Click any card to see the code.</p>
+
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="engineering">Data Engineering</button>
+                <button class="filter-btn" data-filter="analytics">Analytics</button>
+                <button class="filter-btn" data-filter="bi">BI & Reporting</button>
+            </div>
+
+            <div class="projects-grid">
+
+                <!-- Project 1: dbt Analytics -->
+                <a href="https://github.com/Kelvin1993-prog/dbt_analytics" target="_blank" class="project-card" data-category="engineering">
+                    <div class="project-image" style="background: linear-gradient(135deg, #134e5e, #71b280);">
+                        <div class="project-image-icon"><i class="fas fa-layer-group"></i></div>
+                    </div>
+                    <div class="project-info">
+                        <h3>dbt Analytics: Three-Layer Warehouse</h3>
+                        <p>A production-style dbt project built on real data sources, implementing a clean staging, intermediate, and marts layer architecture with full testing and documentation.</p>
+                        <div class="project-tech">
+                            <span>dbt</span>
+                            <span>Snowflake</span>
+                            <span>SQL</span>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Project 2: dbt + Snowflake Pipeline -->
+                <a href="https://github.com/Kelvin1993-prog/dbt_projects" target="_blank" class="project-card" data-category="engineering">
+                    <div class="project-image" style="background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);">
+                        <div class="project-image-icon"><i class="fas fa-snowflake"></i></div>
+                    </div>
+                    <div class="project-info">
+                        <h3>dbt + Snowflake Pipeline</h3>
+                        <p>End-to-end analytics pipeline wired directly to Snowflake via the dbt-snowflake adapter, with version-controlled transformation models and data quality tests built in.</p>
+                        <div class="project-tech">
+                            <span>dbt</span>
+                            <span>Snowflake</span>
+                            <span>Python</span>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Project 3: Chinook Business Analysis -->
+                <a href="https://github.com/Kelvin1993-prog/Chinook-Business-Analysis" target="_blank" class="project-card" data-category="analytics">
+                    <div class="project-image" style="background: linear-gradient(135deg, #f7971e, #ffd200);">
+                        <div class="project-image-icon"><i class="fas fa-search-dollar"></i></div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Chinook Business Analysis: SQL</h3>
+                        <p>Business intelligence analysis on the 11-table Chinook database, answering real commercial questions using advanced SQL, window functions, and DAX measures.</p>
+                        <div class="project-tech">
+                            <span>SQL</span>
+                            <span>Jupyter</span>
+                            <span>Power BI</span>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Project 4: NYC High Schools -->
+                <a href="https://github.com/Kelvin1993-prog/NYC-analysis-using-python" target="_blank" class="project-card" data-category="analytics">
+                    <div class="project-image" style="background: linear-gradient(135deg, #654ea3, #eaafc8);">
+                        <div class="project-image-icon"><i class="fas fa-graduation-cap"></i></div>
+                    </div>
+                    <div class="project-info">
+                        <h3>NYC High Schools: SAT Performance</h3>
+                        <p>A Python data analysis ranking all NYC high schools by SAT scores, pulling together demographic, AP exam, class size, and graduation datasets to find what actually drives performance.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Pandas</span>
+                            <span>Jupyter</span>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Project 5: GymGuide Streamlit App -->
+                <a href="https://github.com/Kelvin1993-prog/Gym-User-Web-App" target="_blank" class="project-card" data-category="analytics">
+                    <div class="project-image" style="background: linear-gradient(135deg, #c94b4b, #4b134f);">
+                        <div class="project-image-icon"><i class="fas fa-dumbbell"></i></div>
+                    </div>
+                    <div class="project-info">
+                        <h3>GymGuide: Interactive Workout Planner</h3>
+                        <p>A Streamlit web app that guides new gym users through personalised workout plans. Built with modular Python and structured data layers, it shows how analytics thinking applies to product work.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Streamlit</span>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Project 6: World Cup Analysis -->
+                <a href="https://github.com/Kelvin1993-prog/World-cup-Football-Analysis-1930-2014-" target="_blank" class="project-card" data-category="bi">
+                    <div class="project-image" style="background: linear-gradient(135deg, #1a2980, #26d0ce);">
+                        <div class="project-image-icon"><i class="fas fa-futbol"></i></div>
+                    </div>
+                    <div class="project-info">
+                        <h3>World Cup Football Analysis 1930–2014</h3>
+                        <p>Power BI dashboards covering 84 years of World Cup history, with DAX measures tracking semi-final trends, goal ratios per tournament era, and country-level performance over time.</p>
+                        <div class="project-tech">
+                            <span>Power BI</span>
+                            <span>DAX</span>
+                            <span>Data Visualisation</span>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Let's Connect</h2>
+            <p class="section-subtitle">I'm open to Analytics Engineering and Data Platform roles, and always glad to talk about data architecture, dbt, or Snowflake. Drop me a message.</p>
+            <div class="contact-links">
+                <a href="https://github.com/Kelvin1993-prog" target="_blank" class="contact-card">
+                    <i class="fab fa-github"></i>
+                    <span>GitHub</span>
+                </a>
+                <a href="https://www.linkedin.com/in/nnabugwu-chukwuebuka" target="_blank" class="contact-card">
+                    <i class="fab fa-linkedin"></i>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="mailto:nnabugwukelvin.chukwuebuka@gmail.com" class="contact-card">
+                    <i class="fas fa-envelope"></i>
+                    <span>Email</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 Chukwuebuka Nnabugwu. Built with care for data.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
